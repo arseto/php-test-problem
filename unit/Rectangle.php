@@ -1,6 +1,17 @@
 <?php
 namespace Unit;
 
+/**
+ * Create unit test for this class that covers:
+ *
+ * 1. Constructor test
+ * 2. Getter tests
+ * 3. Class function tests
+ * 4. Setter test
+ *
+ * Pseudocode allowed, PHP code which runs under PHPUnit is preferred,
+ * Happy Coding !!
+ */
 class Rectangle
 {
     private $length;
@@ -22,12 +33,12 @@ class Rectangle
         return $this->width;
     }
 
-    public function getArea()
+    public function calculateArea()
     {
         return $this->length * $this->width;
     }
 
-    public function getPerimeter()
+    public function calculatePerimeter()
     {
         return 2 * ($this->length + $this->width);
     }
